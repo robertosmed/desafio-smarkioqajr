@@ -1,0 +1,13 @@
+{
+    "$schema": "https://raw.githubusercontent.com/cypress-io/cypress/develop/cli/schema/cypress.schema.json",
+    "baseUrl": "https://www.futfanatics.com.br",
+    "watchForFileChanges": false,
+    "experimentalSourceRewriting": true,
+    "testFiles": "**/*.*spec.*",
+    "reporter": "cypress-multi-reporters",
+    "video": false,
+    "reporterOptions": {
+        "configFile": "reporter-config.json"
+    }
+
+}

@@ -1,0 +1,88 @@
+[
+  {
+    "description": "    Como usuario deseje dicionar produto ao carrinho a partir de uma busca",
+    "keyword": "Funcionalidade",
+    "name": "Adiciona",
+    "line": 2,
+    "id": "adiciona",
+    "tags": [],
+    "uri": "adiciona.feature",
+    "elements": [
+      {
+        "id": "adiciona;adicionar-produto-ao-carrinho-a-partit-de-uma-busca",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Adicionar produto ao carrinho a partit de uma busca",
+        "tags": [
+          {
+            "name": "@focus",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 7,
+            "name": "que acesso o site Futfanatics",
+            "result": {
+              "status": "passed",
+              "duration": 31972000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 8,
+            "name": "busco por Camisa do Brasil e pressiono Enter",
+            "result": {
+              "status": "passed",
+              "duration": 60623000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entao ",
+            "line": 9,
+            "name": "exibe uma lista de resultados para Camisa do Brasil",
+            "result": {
+              "status": "passed",
+              "duration": 249000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 10,
+            "name": "escolho Camisa Brasil CBF Basic Amarela",
+            "result": {
+              "status": "passed",
+              "duration": 31935000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 11,
+            "name": "escolho Tamanho G e clico em Comprar",
+            "result": {
+              "status": "passed",
+              "duration": 3508000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entao ",
+            "line": 12,
+            "name": "exibe produto ao Meu carrinho com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 790000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
